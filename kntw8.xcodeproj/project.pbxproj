@@ -11,6 +11,13 @@
 		241BD38B263BC078003A7693 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241BD38A263BC078003A7693 /* ContentView.swift */; };
 		241BD38D263BC079003A7693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241BD38C263BC079003A7693 /* Assets.xcassets */; };
 		241BD390263BC079003A7693 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241BD38F263BC079003A7693 /* Preview Assets.xcassets */; };
+		244608752649B07500F0C9E7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244608742649B07500F0C9E7 /* Home.swift */; };
+		244608772649B0B400F0C9E7 /* CloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244608762649B0B400F0C9E7 /* CloseView.swift */; };
+		244608792649B0ED00F0C9E7 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244608782649B0ED00F0C9E7 /* Menu.swift */; };
+		2446087B2649B12B00F0C9E7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2446087A2649B12B00F0C9E7 /* Location.swift */; };
+		2446087D2649B14300F0C9E7 /* AllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2446087C2649B14300F0C9E7 /* AllView.swift */; };
+		2446087F2649B15B00F0C9E7 /* UpdateSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2446087E2649B15B00F0C9E7 /* UpdateSpace.swift */; };
+		244608812649B18B00F0C9E7 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244608802649B18B00F0C9E7 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		241BD38C263BC079003A7693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		241BD38F263BC079003A7693 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		241BD391263BC079003A7693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244608742649B07500F0C9E7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		244608762649B0B400F0C9E7 /* CloseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseView.swift; sourceTree = "<group>"; };
+		244608782649B0ED00F0C9E7 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		2446087A2649B12B00F0C9E7 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		2446087C2649B14300F0C9E7 /* AllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllView.swift; sourceTree = "<group>"; };
+		2446087E2649B15B00F0C9E7 /* UpdateSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateSpace.swift; sourceTree = "<group>"; };
+		244608802649B18B00F0C9E7 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,13 @@
 			children = (
 				241BD388263BC078003A7693 /* kntw8App.swift */,
 				241BD38A263BC078003A7693 /* ContentView.swift */,
+				244608742649B07500F0C9E7 /* Home.swift */,
+				244608762649B0B400F0C9E7 /* CloseView.swift */,
+				244608782649B0ED00F0C9E7 /* Menu.swift */,
+				2446087A2649B12B00F0C9E7 /* Location.swift */,
+				2446087C2649B14300F0C9E7 /* AllView.swift */,
+				2446087E2649B15B00F0C9E7 /* UpdateSpace.swift */,
+				244608802649B18B00F0C9E7 /* Settings.swift */,
 				241BD38C263BC079003A7693 /* Assets.xcassets */,
 				241BD391263BC079003A7693 /* Info.plist */,
 				241BD38E263BC079003A7693 /* Preview Content */,
@@ -139,7 +160,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				241BD38B263BC078003A7693 /* ContentView.swift in Sources */,
+				244608752649B07500F0C9E7 /* Home.swift in Sources */,
+				2446087D2649B14300F0C9E7 /* AllView.swift in Sources */,
+				2446087F2649B15B00F0C9E7 /* UpdateSpace.swift in Sources */,
+				244608772649B0B400F0C9E7 /* CloseView.swift in Sources */,
 				241BD389263BC078003A7693 /* kntw8App.swift in Sources */,
+				244608812649B18B00F0C9E7 /* Settings.swift in Sources */,
+				2446087B2649B12B00F0C9E7 /* Location.swift in Sources */,
+				244608792649B0ED00F0C9E7 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
